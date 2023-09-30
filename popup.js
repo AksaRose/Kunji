@@ -3,6 +3,7 @@ async function getLink(){
     const api_url=`https://api.shrtco.de/v2/shorten?url=${link}`
     const response=await fetch(api_url)
     const data=await response.json()
+    console.log(data);
     res=data.result.full_short_link2
     document.getElementById('outputurl').value=res
     console.log(res)
