@@ -1,14 +1,14 @@
 {
-    "manifest_version": 2,
-    "name": "Popup Extension",
+    "manifest_version": 3,
+    "name": "Kunji",
     "version": "1.0",
-    "description": "A simple Chrome extension with a popup",
+    "description": "A url shortner",
     "browser_action": {
       "default_popup": "popup.html",
       "default_icon": {
-        "16": "icon.jpeg",
-        "48": "icon.jpeg",
-        "128": "icon.jpeg"
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
       }
     },
     "permissions": [
