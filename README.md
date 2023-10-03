@@ -20,8 +20,9 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-<img src="pro_working.PNG" alt="Logo" width="80" height="80">
+<center>
+<img src="pro_working.PNG" alt="Logo" width="552" height="455">
+</center>
 
 This repository contains the code and resources for our group project - a URL shortening Chrome extension. With this extension, users can easily create shortened versions of long URLs for convenience and sharing. Whether you're a developer or just interested in how this extension works, this README will guide you through the project setup and usage.
 
