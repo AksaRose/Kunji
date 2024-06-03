@@ -17,13 +17,13 @@ document.addEventListener('DOMContentLoaded', function() {
             const options = {
                 method: 'POST',
                 headers: {
-                    Authorization: 'Bearer mA4qhb4hTlaLGOfoUuQJodhr',
+                    Authorization: 'Bearer <Your-Token>',
                     'Content-Type': 'application/json'
                 },
                 body: JSON.stringify(requestBody)
             };
           
-            fetch('https://api.dub.co/links?workspaceId=ws_clwvjjc4w0000es8tijnh0v5q', options)
+            fetch('https://api.dub.co/links?workspaceId=<Your-Workspace-ID>', options)
             .then(response => response.json())
             .then(response => {
                 if (response.shortLink){
