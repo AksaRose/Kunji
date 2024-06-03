@@ -46,7 +46,7 @@ This repository contains the code and resources for our group project - a URL sh
 <!-- GETTING STARTED -->
 ## Getting Started
 
-### CONFIGURATIONS
+## Configurations
 
  1. Clone this repository to your local machine:
  ```sh
@@ -66,7 +66,8 @@ This repository contains the code and resources for our group project - a URL sh
    ```
   You can get your workspace ID under your Dub.co Workspace Settings.
  4. Authentication
-  - Authentication to Dub.co’s API is performed via the Authorization header with a Bearer token. To     authenticate, you need to include the Authorization header with the word Bearer followed by your token in your API requests like so:
+  - Authentication to Dub.co’s API is performed via the Authorization header with a Bearer token. To     authenticate, you need to include the Authorization header with the 
+    word Bearer followed by your token in your API requests like so:
 
    ```sh
    git Authorization: Bearer <Your-Token>
@@ -75,14 +76,15 @@ This repository contains the code and resources for our group project - a URL sh
   You can create a new token/API key under your Dub.co Account Settings.
 
   <break>
-  check out API documentation for further information.
-  ```sh
+ 5. check out API documentation for further information.
+    
+   ```sh
    git https://dub.co/docs/api-reference/introduction
    
    ```
-  
  
-### HOW TO RUN
+ 
+## How to run
 
 1. Open Google Chrome.
 2. Navigate to chrome://extensions/.
