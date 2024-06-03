@@ -12,6 +12,7 @@
       }
     },
     "permissions": [
-      "activeTab"
+      "activeTab",
+      "https://api.dub.co/"
     ]
   }
