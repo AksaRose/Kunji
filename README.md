@@ -38,18 +38,52 @@ This repository contains the code and resources for our group project - a URL sh
 * HTML
 * CSS
 * JAVASCRIPT
+* Dub.co API
+
 
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-### Installation
+### CONFIGURATIONS
 
- Clone this repository to your local machine:
+ 1. Clone this repository to your local machine:
  ```sh
    git clone https://github.com/AksaRose/nexus.git
    ```
+
+ 2. Sign up at :
+  ```sh
+   git https://app.dub.co/welcome
+   ```
+ 3. Create a workspace 
+   - Dub.co’s API is organized around workspaces. Each workspace has its own set of resources and permissions. To access a workspace’s resources, you need to include the workspaceId query parameter in your API requests like so:
+
+   ```sh
+   git https://api.dub.co/links?workspaceId=<Your-Workspace-ID>
+   
+   ```
+  You can get your workspace ID under your Dub.co Workspace Settings.
+ 4. Authentication
+  - Authentication to Dub.co’s API is performed via the Authorization header with a Bearer token. To     authenticate, you need to include the Authorization header with the word Bearer followed by your token in your API requests like so:
+
+   ```sh
+   git Authorization: Bearer <Your-Token>
+   
+   ```
+  You can create a new token/API key under your Dub.co Account Settings.
+
+  <break>
+  check out API documentation for further information.
+  ```sh
+   git https://dub.co/docs/api-reference/introduction
+   
+   ```
+  
+ 
+### HOW TO RUN
+
 1. Open Google Chrome.
 2. Navigate to chrome://extensions/.
 3. Enable "Developer mode" in the upper-right corner.
