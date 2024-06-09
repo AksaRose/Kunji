@@ -21,10 +21,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 <div align="center">
-<img src="pro_working.PNG" alt="Logo" width="552" height="455">
+<img src="Kunji2.PNG" alt="Logo" width="355" height="469">
 </div>
 
-This repository contains the code and resources for our group project - a URL shortening Chrome extension. With this extension, users can easily create shortened versions of long URLs for convenience and sharing. Whether you're a developer or just interested in how this extension works, this README will guide you through the project setup and usage.
+This repository contains the code and resources for our group project - a URL shortening Chrome extension. With this extension, users can easily create shortened versions of long URLs and also link to the QR code, for convenience and sharing. Whether you're a developer or just interested in how this extension works, this README will guide you through the project setup and usage.
 
 
 
@@ -58,7 +58,7 @@ This repository contains the code and resources for our group project - a URL sh
    git https://app.dub.co/welcome
    ```
  3. Create a workspace 
-   - Dub.co’s API is organized around workspaces. Each workspace has its own set of resources and permissions. To access a workspace’s resources, you need to include the workspaceId query parameter in your API requests like so:
+   - Dub.co’s API is organized around workspaces. Each workspace has its own set of resources and permissions. To access a workspace’s resources, you need to include the workspaceId query parameter in the API requests like so:
 
    ```sh
    git https://api.dub.co/links?workspaceId=<Your-Workspace-ID>
@@ -66,8 +66,8 @@ This repository contains the code and resources for our group project - a URL sh
    ```
   You can get your workspace ID under your Dub.co Workspace Settings.
  4. Authentication
-  - Authentication to Dub.co’s API is performed via the Authorization header with a Bearer token. To     authenticate, you need to include the Authorization header with the 
-    word Bearer followed by your token in your API requests like so:
+  - Authentication to Dub.co’s API is performed via the Authorization header with a Bearer token. To authenticate, you need to include the Authorization header with the 
+    word Bearer followed by your token in the API requests like so:
 
    ```sh
    git Authorization: Bearer <Your-Token>
@@ -102,8 +102,9 @@ This repository contains the code and resources for our group project - a URL sh
 
 1. Click on the extension icon in the Chrome toolbar to open the extension popup.
 2. Paste your long URL into the input field.
-3. Click the "SHORTEN" button to generate a shortened URL.
+3. Click the "SHORTEN" button to generate a shortened URL and link to the QR code.
 4. Select the shortened URL, right click and copy the URL.
+5. Select the link to the QR code, right click and copy the URL.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
